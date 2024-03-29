@@ -1,0 +1,96 @@
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: test_1_val_1.fq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.10
+Cutadapt version: 4.7
+Python version: 3.10.12
+Number of cores used for trimming: 16
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'TTTTTTTTTTTTTTTTTTTT' (Poly-T Read 1; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Optional adapter 2 sequence (only used for read 2 of paired-end files): 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Output file will be GZIP compressed
+
+
+This is cutadapt 4.7 with Python 3.10.12
+Command line parameters: -j 16 -e 0.1 -O 1 -a TTTTTTTTTTTTTTTTTTTT test_1_val_1.fq.gz
+Processing single-end reads on 16 cores ...
+Finished in 0.397 s (39.678 µs/read; 1.51 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                   9,995
+Reads with adapters:                     3,085 (30.9%)
+Reads written (passing filters):         9,995 (100.0%)
+
+Total basepairs processed:     1,480,837 bp
+Total written (filtered):      1,471,936 bp (99.4%)
+
+=== Adapter 1 ===
+
+Sequence: TTTTTTTTTTTTTTTTTTTT; Type: regular 3'; Length: 20; Trimmed: 3085 times
+
+Minimum overlap: 1
+No. of allowed errors:
+1-9 bp: 0; 10-19 bp: 1; 20 bp: 2
+
+Bases preceding removed adapters:
+  A: 39.4%
+  C: 32.6%
+  G: 27.7%
+  T: 0.0%
+  none/other: 0.3%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	2076	2498.8	0	2076
+2	656	624.7	0	656
+3	197	156.2	0	197
+4	74	39.0	0	74
+5	17	9.8	0	17
+6	9	2.4	0	9
+7	4	0.6	0	4
+10	10	0.0	1	0 10
+11	1	0.0	1	0 1
+12	1	0.0	1	0 1
+13	2	0.0	1	0 2
+40	1	0.0	2	0 0 1
+44	1	0.0	2	1
+52	1	0.0	2	1
+55	1	0.0	2	0 1
+57	1	0.0	2	1
+59	1	0.0	2	1
+64	2	0.0	2	1 1
+70	1	0.0	2	0 0 1
+83	1	0.0	2	1
+85	1	0.0	2	1
+93	1	0.0	2	1
+95	1	0.0	2	0 0 1
+105	1	0.0	2	1
+117	1	0.0	2	0 0 1
+123	1	0.0	2	1
+128	1	0.0	2	1
+130	1	0.0	2	1
+132	1	0.0	2	0 1
+137	1	0.0	2	1
+138	1	0.0	2	1
+139	4	0.0	2	4
+140	3	0.0	2	3
+141	1	0.0	2	1
+142	1	0.0	2	1
+143	1	0.0	2	1
+145	1	0.0	2	1
+146	1	0.0	2	0 0 1
+148	1	0.0	2	1
+149	2	0.0	2	0 1 1
+150	2	0.0	2	0 2
+
+RUN STATISTICS FOR INPUT FILE: test_1_val_1.fq.gz
+=============================================
+9995 sequences processed in total
+

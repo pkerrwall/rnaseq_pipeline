@@ -1,0 +1,7 @@
+sample	Condition
+daf-16_1	daf-16
+daf-16_2	daf-16
+daf-16_3	daf-16
+daf-16_SVIP_1	daf-16_SVIP
+daf-16_SVIP_2	daf-16_SVIP
+daf-16_SVIP_3	daf-16_SVIP
