@@ -205,4 +205,4 @@ Create sample_info.txt # tab-delimted with format "sample"\t"Condition"\n
 `../software/R-4.1.2/bin/Rscript ~/rnaseq_pipeline/scripts/scripts/RunDeSeq2_with_args.R daf-16_SVIP daf-16 salmon salmon.gene_counts.tsv sample_info.txt`  
 
 #### Volcano plots
-Rscript ~/rnaseq_pipeline/scripts/scripts/volcano_plot_dge_results.r
+`../software/R-4.1.2/bin/Rscript  ~/rnaseq_pipeline/scripts/scripts/volcano_plot_dge_results.r`  
