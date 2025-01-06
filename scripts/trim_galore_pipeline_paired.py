@@ -13,7 +13,7 @@ if len(sys.argv) < 1:
 
 # pipeline for paired-end reads
 sample = sys.argv[1]
-trim_galore_exe = sys.argv[2] or '~/software/TrimGalore/trim_galore'
+trim_galore_exe = sys.argv[2] # '~/software/TrimGalore/trim_galore'
 start_time = datetime.now()
 fastq_dir = '.'
 cpu_num = 16
