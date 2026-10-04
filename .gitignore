@@ -1,0 +1,4 @@
+data/
+
+# Notes, reports, plans, drafts: on disk only, never in git (hub D-17)
+docs/
