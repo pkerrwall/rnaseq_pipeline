@@ -56,3 +56,6 @@ __pycache__/
 .env
 *.pem
 .wiki/
+
+# ── hub template baseline (2026-10-12) ──
+!tests/fixtures/**
